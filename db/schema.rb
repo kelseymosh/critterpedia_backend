@@ -21,6 +21,7 @@ ActiveRecord::Schema.define(version: 2020_11_09_172455) do
     t.string "time"
     t.string "nhMonths"
     t.string "shMonths"
+    t.boolean "caught"
   end
 
 end

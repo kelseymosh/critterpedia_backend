@@ -9,4 +9,11 @@ class FishController < ApplicationController
         @fish = Fish.find(params[:id])
         render json: @fish
     end
+
+    def update
+        @fish = Fish.find(params[:id])
+        @fish.update(caught:params[:caught])
+        render json: @fish
+    end
+
 end

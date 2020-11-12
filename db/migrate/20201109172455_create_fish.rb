@@ -9,6 +9,7 @@ class CreateFish < ActiveRecord::Migration[6.0]
       t.string :time
       t.string :nhMonths
       t.string :shMonths
+      t.boolean :caught
     end
   end
 end

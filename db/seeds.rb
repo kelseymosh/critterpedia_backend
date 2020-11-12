@@ -15,7 +15,8 @@ bitterling = Fish.create(
     location: "River",
     time: "All Day",
     nhMonths: "Northern Hemisphere: November, December, January, February, March",
-    shMonths: "Southern Hemisphere: May, June, July, August, September"
+    shMonths: "Southern Hemisphere: May, June, July, August, September",
+    caught: false
 )
 
 koi = Fish.create(
@@ -26,7 +27,8 @@ koi = Fish.create(
     location: "Pond",
     time: "4pm - 9am",
     nhMonths: "Northern Hemisphere: All Months",
-    shMonths: "Southern Hemisphere: All Months"
+    shMonths: "Southern Hemisphere: All Months",
+    caught: false
 )
 
 crawfish = Fish.create(
@@ -37,8 +39,8 @@ crawfish = Fish.create(
     location: "Pond",
     time: "All Day",
     nhMonths: "Northern Hemisphere: April, May, June, July, August, September",
-    shMonths: "Southern Hemisphere: October, November, December, January, February, March
-    "
+    shMonths: "Southern Hemisphere: October, November, December, January, February, March",
+    caught: false
 )
 
 freshwaterGoby = Fish.create(
@@ -49,7 +51,8 @@ freshwaterGoby = Fish.create(
     location: "River",
     time: "4pm - 9am",
     nhMonths: "Northern Hemisphere: All Months",
-    shMonths: "Southern Hemisphere: All Months"
+    shMonths: "Southern Hemisphere: All Months",
+    caught: false
 )
 
 yellowPerch = Fish.create(
@@ -60,7 +63,8 @@ yellowPerch = Fish.create(
     location: "River",
     time: "All Day",
     nhMonths: "Northern Hemisphere: October, November, December, January, February, March",
-    shMonths: "Southern Hemisphere: April, May, June, July, August, September"
+    shMonths: "Southern Hemisphere: April, May, June, July, August, September",
+    caught: false
 )
 
 sweetfish = Fish.create(
@@ -71,7 +75,8 @@ sweetfish = Fish.create(
     location: "River",
     time: "All Day",
     nhMonths: "Northern Hemisphere: July, August, September",
-    shMonths: "Southern Hemisphere: December, January, February, March"
+    shMonths: "Southern Hemisphere: December, January, February, March",
+    caught: false
 )
 
 salmon = Fish.create(
@@ -82,7 +87,8 @@ salmon = Fish.create(
     location: "River (Mouth)",
     time: "All Day",
     nhMonths: "Northern Hemisphere: September",
-    shMonths: "Southern Hemisphere: March"
+    shMonths: "Southern Hemisphere: March",
+    caught: false
 )
 
 angelfish = Fish.create(
@@ -93,7 +99,8 @@ angelfish = Fish.create(
     location: "River",
     time: "4pm - 9am",
     nhMonths: "Northern Hemisphere: May, June, July, August, September, October",
-    shMonths: "Southern Hemisphere: November, December, January, February, March, April"
+    shMonths: "Southern Hemisphere: November, December, January, February, March, April",
+    caught: false
 )
 
 arowana = Fish.create(
@@ -104,7 +111,8 @@ arowana = Fish.create(
     location: "River",
     time: "4pm - 9am",
     nhMonths: "Northern Hemisphere: June, July, August, September",
-    shMonths: "Southern Hemisphere:December, January, February, March"
+    shMonths: "Southern Hemisphere:December, January, February, March",
+    caught: false
 )
 
 sturgeon = Fish.create(
@@ -115,7 +123,8 @@ sturgeon = Fish.create(
     location: "River (Mouth)",
     time: "All Day",
     nhMonths: "Northern Hemisphere: September, October, November, December, January, February, March",
-    shMonths: "Southern Hemisphere: March, April, May, June, July, August, September"
+    shMonths: "Southern Hemisphere: March, April, May, June, July, August, September",
+    caught: false
 )
 
 butterflyFish = Fish.create(
@@ -126,7 +135,8 @@ butterflyFish = Fish.create(
     location: "Sea",
     time: "All Day",
     nhMonths: "Northern Hemisphere: April, May, June, July, August, September",
-    shMonths: "Southern Hemisphere: October, November, December, January, February, March"
+    shMonths: "Southern Hemisphere: October, November, December, January, February, March",
+    caught: false
 )
 
 anchovy = Fish.create(
@@ -137,7 +147,8 @@ anchovy = Fish.create(
     location: "Sea",
     time: "4am - 9pm",
     nhMonths: "Northern Hemisphere: All Months",
-    shMonths: "Southern Hemisphere: All Months"
+    shMonths: "Southern Hemisphere: All Months",
+    caught: false
 )
 
 dab = Fish.create(
@@ -148,7 +159,8 @@ dab = Fish.create(
     location: "Sea",
     time: "All Day",
     nhMonths: "Northern Hemisphere: October, November, December, January, February, March, April",
-    shMonths: "Southern Hemisphere: August, September, October"
+    shMonths: "Southern Hemisphere: August, September, October",
+    caught: false
 )
 
 tuna = Fish.create(
@@ -159,7 +171,8 @@ tuna = Fish.create(
     location: "Pier",
     time: "All Day",
     nhMonths: "Northern Hemisphere: November, December, January, February, March, April",
-    shMonths: "Southern Hemisphere: May, June, July, August, September, October"
+    shMonths: "Southern Hemisphere: May, June, July, August, September, October",
+    caught: false
 )
 
 ray = Fish.create(
@@ -170,7 +183,8 @@ ray = Fish.create(
     location: "Sea",
     time: "4am - 9pm",
     nhMonths: "Northern Hemisphere: August, September, October, November",
-    shMonths: "Southern Hemisphere: February, March, April, May"
+    shMonths: "Southern Hemisphere: February, March, April, May",
+    caught: false
 )
 
 suckerfish = Fish.create(
@@ -181,7 +195,8 @@ suckerfish = Fish.create(
     location: "Sea",
     time: "All Day",
     nhMonths: "Northern Hemisphere: June, July, August, September",
-    shMonths: "Southern Hemisphere: December, January, February, March"
+    shMonths: "Southern Hemisphere: December, January, February, March",
+    caught: false
 )
 
 paleChub = Fish.create(
@@ -192,7 +207,8 @@ paleChub = Fish.create(
     location: "River",
     time: "9am - 4pm",
     nhMonths: "Northern Hemisphere: All Months",
-    shMonths: "Southern Hemisphere: All Months"
+    shMonths: "Southern Hemisphere: All Months",
+    caught: false
 )
 
 goldfish = Fish.create(
@@ -203,7 +219,8 @@ goldfish = Fish.create(
     location: "Pond",
     time: "All Day",
     nhMonths: "Northern Hemisphere: All Months",
-    shMonths: "Southern Hemisphere: All Months"
+    shMonths: "Southern Hemisphere: All Months",
+    caught: false
 )
 
 softShelledTurtle = Fish.create(
@@ -214,7 +231,8 @@ softShelledTurtle = Fish.create(
     location: "River",
     time: "4pm - 9am",
     nhMonths: "Northern Hemisphere: August, September",
-    shMonths: "Southern Hemisphere: February, March"
+    shMonths: "Southern Hemisphere: February, March",
+    caught: false
 )
 
 loach = Fish.create(
@@ -225,7 +243,8 @@ loach = Fish.create(
     location: "River",
     time: "All Day",
     nhMonths: "Northern Hemisphere: March, April, May",
-    shMonths: "Southern Hemisphere:September, October, November"
+    shMonths: "Southern Hemisphere:September, October, November",
+    caught: false
 )
 
 blackBass = Fish.create(
@@ -236,7 +255,8 @@ blackBass = Fish.create(
     location: "River",
     time: "All Day",
     nhMonths: "Northern Hemisphere: All Months",
-    shMonths: "Southern Hemisphere: All Months"
+    shMonths: "Southern Hemisphere: All Months",
+    caught: false
 )
 
 cherrySalmon = Fish.create(
@@ -247,7 +267,8 @@ cherrySalmon = Fish.create(
     location: "River (Clifftop)",
     time: "4pm - 9am",
     nhMonths: "Northern Hemisphere:March, April, May, June, September, October, November",
-    shMonths: "Southern Hemisphere:March, April, May, September, October, November, December"
+    shMonths: "Southern Hemisphere:March, April, May, September, October, November, December",
+    caught: false
 )
 
 kingSalmon = Fish.create(
@@ -258,7 +279,8 @@ kingSalmon = Fish.create(
     location: "River (Mouth)",
     time: "All Day",
     nhMonths: "Northern Hemisphere: September",
-    shMonths: "Southern Hemisphere: March"
+    shMonths: "Southern Hemisphere: March",
+    caught: false
 )
 
 betta = Fish.create(
@@ -269,7 +291,8 @@ betta = Fish.create(
     location: "River",
     time: "9am - 4pm",
     nhMonths: "Northern Hemisphere: May, June, July, August, September, October",
-    shMonths: "Southern Hemisphere: November, December, January, February, March"
+    shMonths: "Southern Hemisphere: November, December, January, February, March",
+    caught: false
 )
 
 dorado= Fish.create(
@@ -280,7 +303,8 @@ dorado= Fish.create(
     location: "River",
     time: "4am - 9pm",
     nhMonths: "Northern Hemisphere: June, July, August, September",
-    shMonths: "Southern Hemisphere: December, January, February, March"
+    shMonths: "Southern Hemisphere: December, January, February, March",
+    caught: false
 )
 
 seaButterfly = Fish.create(
@@ -291,7 +315,8 @@ seaButterfly = Fish.create(
     location: "Sea",
     time: "All Day",
     nhMonths: "Northern Hemisphere: December, January, February, March",
-    shMonths: "Southern Hemisphere: June, July, August, September"
+    shMonths: "Southern Hemisphere: June, July, August, September",
+    caught: false
 )
 
 napoleonfish = Fish.create(
@@ -302,7 +327,8 @@ napoleonfish = Fish.create(
     location: "Sea",
     time: "4am - 9pm",
     nhMonths: "Northern Hemisphere: July, August",
-    shMonths: "Southern Hemisphere: January, February"
+    shMonths: "Southern Hemisphere: January, February",
+    caught: false
 )
 
 horseMackerel = Fish.create(
@@ -313,7 +339,8 @@ horseMackerel = Fish.create(
     location: "Sea",
     time: "All Day",
     nhMonths: "Northern Hemisphere: All Months",
-    shMonths: "Southern Hemisphere: All Months"
+    shMonths: "Southern Hemisphere: All Months",
+    caught: false
 )
 
 oliveFlounder = Fish.create(
@@ -324,7 +351,8 @@ oliveFlounder = Fish.create(
     location: "Sea",
     time: "All Day",
     nhMonths: "Northern Hemisphere: All Months",
-    shMonths: "Southern Hemisphere: All Months"
+    shMonths: "Southern Hemisphere: All Months",
+    caught: false
 )
 
 blueMarlin = Fish.create(
@@ -335,7 +363,8 @@ blueMarlin = Fish.create(
     location: "Pier",
     time: "All Day",
     nhMonths: "Northern Hemisphere: November, December, January, February, March, April & July, August, September",
-    shMonths: "Southern Hemisphere: January, February, March & May, June, July, August, September, October"
+    shMonths: "Southern Hemisphere: January, February, March & May, June, July, August, September, October",
+    caught: false
 )
 
 sawShark = Fish.create(
@@ -346,7 +375,8 @@ sawShark = Fish.create(
     location: "Sea",
     time: "4pm - 9am",
     nhMonths: "Northern Hemisphere: June, July, August, September",
-    shMonths: "Southern Hemisphere: December, January, February, March"
+    shMonths: "Southern Hemisphere: December, January, February, March",
+    caught: false
 )
 
 footballFish = Fish.create(
@@ -357,7 +387,8 @@ footballFish = Fish.create(
     location: "Sea",
     time: "4pm - 9am",
     nhMonths: "Northern Hemisphere: November, December, January, February, March",
-    shMonths: "Southern Hemisphere: May, June, July, August, September"
+    shMonths: "Southern Hemisphere: May, June, July, August, September",
+    caught: false
 )
 
 crucianCarp = Fish.create(
@@ -368,7 +399,8 @@ crucianCarp = Fish.create(
     location: "River",
     time: "All Day",
     nhMonths: "Northern Hemisphere: All Months",
-    shMonths: "Southern Hemisphere: All Months"
+    shMonths: "Southern Hemisphere: All Months",
+    caught: false
 )
 
 popEyedGoldfish = Fish.create(
@@ -379,7 +411,8 @@ popEyedGoldfish = Fish.create(
     location: "Pond",
     time: "9am - 4pm",
     nhMonths: "Northern Hemisphere: All Months",
-    shMonths: "Southern Hemisphere: All Months"
+    shMonths: "Southern Hemisphere: All Months",
+    caught: false
 )
 
 snappingTurtle = Fish.create(
@@ -390,7 +423,8 @@ snappingTurtle = Fish.create(
     location: "River",
     time: "9pm - 4am",
     nhMonths: "Northern Hemisphere: April, May, June, July, August, September, October",
-    shMonths: "Southern Hemisphere: October, November, December, January, February, March, April"
+    shMonths: "Southern Hemisphere: October, November, December, January, February, March, April",
+    caught: false
 )
 
 catfish = Fish.create(
@@ -401,8 +435,8 @@ catfish = Fish.create(
     location: "Pond",
     time: "4pm - 9am",
     nhMonths: "Northern Hemisphere: May, June, July, August, September, October",
-    shMonths: "Southern Hemisphere:November, December, January, February, March, April
-    "
+    shMonths: "Southern Hemisphere:November, December, January, February, March, April",
+    caught: false
 )
 
 tilapia = Fish.create(
@@ -413,7 +447,8 @@ tilapia = Fish.create(
     location: "River",
     time: "All Day",
     nhMonths: "Northern Hemisphere: June, July, August, September, October",
-    shMonths: "Southern Hemisphere: December, January, February, March, April"
+    shMonths: "Southern Hemisphere: December, January, February, March, April",
+    caught: false
 )
 
 char = Fish.create(
@@ -424,7 +459,8 @@ char = Fish.create(
     location: "River (Clifftop)",
     time: "4pm - 9am",
     nhMonths: "Northern Hemisphere: March, April, May, June, September, October, November",
-    shMonths: "Southern Hemisphere: September, October, November, December, March, April, May"
+    shMonths: "Southern Hemisphere: September, October, November, December, March, April, May",
+    caught: false
 )
 
 mittenCrab = Fish.create(
@@ -435,7 +471,8 @@ mittenCrab = Fish.create(
     location: "River",
     time: "4pm - 9am",
     nhMonths: "Northern Hemisphere: September, October, November",
-    shMonths: "Southern Hemisphere: March, April, May"
+    shMonths: "Southern Hemisphere: March, April, May",
+    caught: false
 )
 
 neonTetra = Fish.create(
@@ -446,7 +483,8 @@ neonTetra = Fish.create(
     location: "River",
     time: "9am - 4pm",
     nhMonths: "Northern Hemisphere: April, May, June, July, August, September, October, November",
-    shMonths: "Southern Hemisphere: October, November, December, January, February, March, April, May"
+    shMonths: "Southern Hemisphere: October, November, December, January, February, March, April, May",
+    caught: false
 )
 
 gar = Fish.create(
@@ -457,7 +495,8 @@ gar = Fish.create(
     location: "Pond",
     time: "4pm - 9am",
     nhMonths: "Northern Hemisphere: June, July, August, September",
-    shMonths: "Southern Hemisphere: December, January, February, March"
+    shMonths: "Southern Hemisphere: December, January, February, March",
+    caught: false
 )
 
 seahorse = Fish.create(
@@ -468,7 +507,8 @@ seahorse = Fish.create(
     location: "Sea",
     time: "All Day",
     nhMonths: "Northern Hemisphere: April, May, June, July, August, September, October, November",
-    shMonths: "Southern Hemisphere: October, November, January, February, March, April, May"
+    shMonths: "Southern Hemisphere: October, November, January, February, March, April, May",
+    caught: false
 )
 
 zebraTurkeyfish = Fish.create(
@@ -479,7 +519,8 @@ zebraTurkeyfish = Fish.create(
     location: "Sea",
     time: "All Day",
     nhMonths: "Northern Hemisphere: April, May, June, July, August, September, October, November",
-    shMonths: "Southern Hemisphere: October, November, December, January, February, March, April, May"
+    shMonths: "Southern Hemisphere: October, November, December, January, February, March, April, May",
+    caught: false
 )
 
 barredKnifejaw = Fish.create(
@@ -490,7 +531,8 @@ barredKnifejaw = Fish.create(
     location: "Sea",
     time: "All Day",
     nhMonths: "Northern Hemisphere: March, April, May, June, July, August, September, October, November",
-    shMonths: "Southern Hemisphere:September, October, November, December, January, February, March, April, May"
+    shMonths: "Southern Hemisphere:September, October, November, December, January, February, March, April, May",
+    caught: false
 )
 
 squid = Fish.create(
@@ -501,7 +543,8 @@ squid = Fish.create(
     location: "Sea",
     time: "All Day",
     nhMonths: "Northern Hemisphere: December, January, February, March, April, May, June, July, August",
-    shMonths: "Southern Hemisphere: June, July, August, September, October, November, December, January, February"
+    shMonths: "Southern Hemisphere: June, July, August, September, October, November, December, January, February",
+    caught: false
 )
 
 giantTrevally = Fish.create(
@@ -512,7 +555,8 @@ giantTrevally = Fish.create(
     location: "Pier",
     time: "All Day",
     nhMonths: "Northern Hemisphere: May, June, July, August, September",
-    shMonths: "Southern Hemisphere: November, December, January, February, March"
+    shMonths: "Southern Hemisphere: November, December, January, February, March",
+    caught: false
 )
 
 hammerheadShark = Fish.create(
@@ -523,7 +567,8 @@ hammerheadShark = Fish.create(
     location: "Sea",
     time: "4pm - 9am",
     nhMonths: "Northern Hemisphere: June, July, August, September",
-    shMonths: "Southern Hemisphere:December, January, February, March"
+    shMonths: "Southern Hemisphere:December, January, February, March",
+    caught: false
 )
 
 oarfish = Fish.create(
@@ -534,7 +579,8 @@ oarfish = Fish.create(
     location: "Sea",
     time: "All Day",
     nhMonths: "Northern Hemisphere: December, January, February, March, April, May",
-    shMonths: "Southern Hemisphere:June, July, August, September, October, November"
+    shMonths: "Southern Hemisphere:June, July, August, September, October, November",
+    caught: false
 )
 
 dace = Fish.create(
@@ -545,7 +591,8 @@ dace = Fish.create(
     location: "River",
     time: "4pm - 9am",
     nhMonths: "Northern Hemisphere: All Months",
-    shMonths: "Southern Hemisphere: All Months"
+    shMonths: "Southern Hemisphere: All Months",
+    caught: false
 )
 
 ranchuGoldfish = Fish.create(
@@ -556,7 +603,8 @@ ranchuGoldfish = Fish.create(
     location: "Pond",
     time: "9am - 4pm",
     nhMonths: "Northern Hemisphere: All Months",
-    shMonths: "Southern Hemisphere: All Months"
+    shMonths: "Southern Hemisphere: All Months",
+    caught: false
 )
 
 tadpole = Fish.create(
@@ -567,7 +615,8 @@ tadpole = Fish.create(
     location: "Pond",
     time: "All Day",
     nhMonths: "Northern Hemisphere: March, April, May, June, July",
-    shMonths: "Southern Hemisphere: September, October, November, December, January"
+    shMonths: "Southern Hemisphere: September, October, November, December, January",
+    caught: false
 )
 
 giantSnakehead = Fish.create(
@@ -578,7 +627,8 @@ giantSnakehead = Fish.create(
     location: "Pond",
     time: "9am - 4pm",
     nhMonths: "Northern Hemisphere: June, July, August",
-    shMonths: "Southern Hemisphere: December, January, February"
+    shMonths: "Southern Hemisphere: December, January, February",
+    caught: false
 )
 
 pike = Fish.create(
@@ -589,7 +639,8 @@ pike = Fish.create(
     location: "River",
     time: "All Day",
     nhMonths: "Northern Hemisphere: September, October, November, December",
-    shMonths: "Southern Hemisphere: March, April, May, June"
+    shMonths: "Southern Hemisphere: March, April, May, June",
+    caught: false
 )
 
 goldenTrout = Fish.create(
@@ -600,7 +651,8 @@ goldenTrout = Fish.create(
     location: "River (Clifftop)",
     time: "4pm - 9am",
     nhMonths: "Northern Hemisphere: March, April, May & September, October, November",
-    shMonths: "Southern Hemisphere: September, October, November & March, April, May"
+    shMonths: "Southern Hemisphere: September, October, November & March, April, May",
+    caught: false
 )
 
 guppy = Fish.create(
@@ -611,7 +663,8 @@ guppy = Fish.create(
     location: "River",
     time: "9am - 4pm",
     nhMonths: "Northern Hemisphere: April, May, June, July, August, September, October, November",
-    shMonths: "Southern Hemisphere: October, November, January, February, March, April, May"
+    shMonths: "Southern Hemisphere: October, November, January, February, March, April, May",
+    caught: false
 )
 
 rainbowfish = Fish.create(
@@ -622,7 +675,8 @@ rainbowfish = Fish.create(
     location: "River",
     time: "9am - 4pm",
     nhMonths: "Northern Hemisphere: May, June, July, August, September, October",
-    shMonths: "Southern Hemisphere:November, December, January, February, March, April"
+    shMonths: "Southern Hemisphere:November, December, January, February, March, April",
+    caught: false
 )
 
 arapaima = Fish.create(
@@ -633,7 +687,8 @@ arapaima = Fish.create(
     location: "River",
     time: "4pm - 9am",
     nhMonths: "Northern Hemisphere: June, July, August, September",
-    shMonths: "Southern Hemisphere: December, January, February, March, April"
+    shMonths: "Southern Hemisphere: December, January, February, March, April",
+    caught: false
 )
 
 clownfish = Fish.create(
@@ -644,7 +699,8 @@ clownfish = Fish.create(
     location: "Sea",
     time: "All Day",
     nhMonths: "Northern Hemisphere:April, May, June, July, August, September",
-    shMonths: "Southern Hemisphere: October, November, December, January, February, March"
+    shMonths: "Southern Hemisphere: October, November, December, January, February, March",
+    caught: false
 )
 
 blowfish = Fish.create(
@@ -655,7 +711,8 @@ blowfish = Fish.create(
     location: "Sea",
     time: "9pm - 4am",
     nhMonths: "Northern Hemisphere: November, December, January, February",
-    shMonths: "Southern Hemisphere: May, June, July, August"
+    shMonths: "Southern Hemisphere: May, June, July, August",
+    caught: false
 )
 
 seaBass = Fish.create(
@@ -666,7 +723,8 @@ seaBass = Fish.create(
     location: "Sea",
     time: "All Day",
     nhMonths: "Northern Hemisphere: All Months",
-    shMonths: "Southern Hemisphere: All Months"
+    shMonths: "Southern Hemisphere: All Months",
+    caught: false
 )
 
 morayEel = Fish.create(
@@ -677,7 +735,8 @@ morayEel = Fish.create(
     location: "Sea",
     time: "All Day",
     nhMonths: "Northern Hemisphere:August, September, October",
-    shMonths: "Southern Hemisphere:February, March, April"
+    shMonths: "Southern Hemisphere:February, March, April",
+    caught: false
 )
 
 mahiMahi = Fish.create(
@@ -688,7 +747,8 @@ mahiMahi = Fish.create(
     location: "Pier",
     time: "All Day",
     nhMonths: "Northern Hemisphere: May, June, July, August, September, October",
-    shMonths: "Southern Hemisphere:November, December, January, February, March, April"
+    shMonths: "Southern Hemisphere:November, December, January, February, March, April",
+    caught: false
 )
 
 greatWhiteShark = Fish.create(
@@ -699,7 +759,8 @@ greatWhiteShark = Fish.create(
     location: "Sea",
     time: "4pm - 9am",
     nhMonths: "Northern Hemisphere: June, July, August, September",
-    shMonths: "Southern Hemisphere: December, January, February, March"
+    shMonths: "Southern Hemisphere: December, January, February, March",
+    caught: false
 )
 
 barreleye = Fish.create(
@@ -710,7 +771,8 @@ barreleye = Fish.create(
     location: "Sea",
     time: "9pm - 4am",
     nhMonths: "Northern Hemisphere: All Months",
-    shMonths: "Southern Hemisphere: All Months"
+    shMonths: "Southern Hemisphere: All Months",
+    caught: false
 )
 
 carp = Fish.create(
@@ -721,7 +783,8 @@ carp = Fish.create(
     location: "Pond",
     time: "All Day",
     nhMonths: "Northern Hemisphere: All Months",
-    shMonths: "Southern Hemisphere: All Months"
+    shMonths: "Southern Hemisphere: All Months",
+    caught: false
 )
 
 killifish = Fish.create(
@@ -732,7 +795,8 @@ killifish = Fish.create(
     location: "Pond",
     time: "All Day",
     nhMonths: "Northern Hemisphere: April, May, June, July, August",
-    shMonths: "Southern Hemisphere: October, November, December, January, February"
+    shMonths: "Southern Hemisphere: October, November, December, January, February",
+    caught: false
 )
 
 frog = Fish.create(
@@ -743,7 +807,8 @@ frog = Fish.create(
     location: "Pond",
     time: "All Day",
     nhMonths: "Northern Hemisphere: May, June, July, August",
-    shMonths: "Southern Hemisphere: November, December, January, February"
+    shMonths: "Southern Hemisphere: November, December, January, February",
+    caught: false
 )
 
 bluegill = Fish.create(
@@ -754,7 +819,8 @@ bluegill = Fish.create(
     location: "River",
     time: "9am - 4pm",
     nhMonths: "Northern Hemisphere: All Months",
-    shMonths: "Southern Hemisphere: All Months"
+    shMonths: "Southern Hemisphere: All Months",
+    caught: false
 )
 
 pondSmelt = Fish.create(
@@ -765,7 +831,8 @@ pondSmelt = Fish.create(
     location: "River",
     time: "All Day",
     nhMonths: "Northern Hemisphere: December, January, February",
-    shMonths: "Southern Hemisphere: June, July, August"
+    shMonths: "Southern Hemisphere: June, July, August",
+    caught: false
 )
 
 stringfish = Fish.create(
@@ -776,7 +843,8 @@ stringfish = Fish.create(
     location: "River (Clifftop)",
     time: "4pm - 9am",
     nhMonths: "Northern Hemisphere: December, January, February, March",
-    shMonths: "Southern Hemisphere: June, July, August, September"
+    shMonths: "Southern Hemisphere: June, July, August, September",
+    caught: false
 )
 
 nibbleFish = Fish.create(
@@ -787,7 +855,8 @@ nibbleFish = Fish.create(
     location: "River",
     time: "9am - 4pm",
     nhMonths: "Northern Hemisphere: May, June, July, August, September",
-    shMonths: "Southern Hemisphere: November, December, January, February, March"
+    shMonths: "Southern Hemisphere: November, December, January, February, March",
+    caught: false
 )
 
 piranha = Fish.create(
@@ -798,7 +867,8 @@ piranha = Fish.create(
     location: "River",
     time: "9am - 4pm & 9pm - 4am",
     nhMonths: "Northern Hemisphere: June, July, August, September",
-    shMonths: "Southern Hemisphere: December, January, February, March"
+    shMonths: "Southern Hemisphere: December, January, February, March",
+    caught: false
 )
 
 saddledBichir = Fish.create(
@@ -809,7 +879,8 @@ saddledBichir = Fish.create(
     location: "River",
     time: "9pm - 4am",
     nhMonths: "Northern Hemisphere: June, July, August, September",
-    shMonths: "Southern Hemisphere: December, January, February, March"
+    shMonths: "Southern Hemisphere: December, January, February, March",
+    caught: false
 )
 
 surgeonfish = Fish.create(
@@ -820,7 +891,8 @@ surgeonfish = Fish.create(
     location: "Sea",
     time: "All Day",
     nhMonths: "Northern Hemisphere: April, May, June, July, August, September",
-    shMonths: "Southern Hemisphere: October, November, December, January, February, March"
+    shMonths: "Southern Hemisphere: October, November, December, January, February, March",
+    caught: false
 )
 
 pufferFish = Fish.create(
@@ -831,7 +903,8 @@ pufferFish = Fish.create(
     location: "Sea",
     time: "	All Day",
     nhMonths: "Northern Hemisphere: July, August, September",
-    shMonths: "Southern Hemisphere: January, February, March"
+    shMonths: "Southern Hemisphere: January, February, March",
+    caught: false
 )
 
 redSnapper = Fish.create(
@@ -842,7 +915,8 @@ redSnapper = Fish.create(
     location: "Sea",
     time: "All Day",
     nhMonths: "Northern Hemisphere: All Months",
-    shMonths: "Southern Hemisphere: All Months"
+    shMonths: "Southern Hemisphere: All Months",
+    caught: false
 )
 
 ribbonEel = Fish.create(
@@ -853,7 +927,8 @@ ribbonEel = Fish.create(
     location: "Sea",
     time: "All Day",
     nhMonths: "Northern Hemisphere:June, July, August, September, October",
-    shMonths: "Southern Hemisphere: December, January, February, March, April"
+    shMonths: "Southern Hemisphere: December, January, February, March, April",
+    caught: false
 )
 
 oceanSunfish = Fish.create(
@@ -864,7 +939,8 @@ oceanSunfish = Fish.create(
     location: "Sea",
     time: "4am - 9pm",
     nhMonths: "Northern Hemisphere: July, August, September",
-    shMonths: "Southern Hemisphere: January, February, March"
+    shMonths: "Southern Hemisphere: January, February, March",
+    caught: false
 )
 
 whaleShark = Fish.create(
@@ -875,7 +951,8 @@ whaleShark = Fish.create(
     location: "Sea",
     time: "All Day",
     nhMonths: "Northern Hemisphere: June, July, August, September",
-    shMonths: "Southern Hemisphere: December, January, February, March"
+    shMonths: "Southern Hemisphere: December, January, February, March",
+    caught: false
 )
 
 coelacanth = Fish.create(
@@ -886,5 +963,6 @@ coelacanth = Fish.create(
     location: "Sea (Rainy Days)",
     time: "All Day",
     nhMonths: "Northern Hemisphere: All Months",
-    shMonths: "Southern Hemisphere: All Months"
+    shMonths: "Southern Hemisphere: All Months",
+    caught: false
 )
