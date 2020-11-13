@@ -10,7 +10,18 @@
 #
 # It's strongly recommended that you check this file into your version control system.
 
-ActiveRecord::Schema.define(version: 2020_11_09_172455) do
+ActiveRecord::Schema.define(version: 2020_11_12_211027) do
+
+  create_table "bugs", force: :cascade do |t|
+    t.string "image"
+    t.string "name"
+    t.integer "price"
+    t.string "location"
+    t.string "time"
+    t.string "nhMonths"
+    t.string "shMonths"
+    t.boolean "caught"
+  end
 
   create_table "fish", force: :cascade do |t|
     t.string "image"

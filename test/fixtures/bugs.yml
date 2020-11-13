@@ -1,0 +1,21 @@
+# Read about fixtures at https://api.rubyonrails.org/classes/ActiveRecord/FixtureSet.html
+
+one:
+  image: MyString
+  name: MyString
+  price: 1
+  location: MyString
+  time: MyString
+  nhMonths: MyString
+  shMonths: MyString
+  caught: false
+
+two:
+  image: MyString
+  name: MyString
+  price: 1
+  location: MyString
+  time: MyString
+  nhMonths: MyString
+  shMonths: MyString
+  caught: false
