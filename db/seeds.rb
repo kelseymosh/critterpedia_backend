@@ -6,6 +6,7 @@
 #   movies = Movie.create([{ name: 'Star Wars' }, { name: 'Lord of the Rings' }])
 #   Character.create(name: 'Luke', movie: movies.first)
 Fish.destroy_all 
+Bug.destroy_all
 
 bitterling = Fish.create(
     name: "Bitterling",
@@ -964,5 +965,886 @@ coelacanth = Fish.create(
     time: "All Day",
     nhMonths: "Northern Hemisphere: All Months",
     shMonths: "Southern Hemisphere: All Months",
+    caught: false
+)
+
+
+
+commonButterfly = Bug.create(
+    name: "Common Butterfly",
+    image: "https://oyster.ignimgs.com/mediawiki/apis.ign.com/animal-crossing-new-horizons/8/89/Common_Butterfly_ACNH.png?width=640",
+    price: 160,
+    location: "4am - 7pm",
+    time: "All Day",
+    nhMonths: "Northern Hemisphere: September, October, November, December, January, February, March, April, May, June",
+    shMonths: "Southern Hemisphere: March, April, May, June, July, August, September, October, November, December",
+    caught: false
+)
+
+paperKiteButterfly= Bug.create(
+    name: "Paper Kite Butterfly",
+    image: "https://oyster.ignimgs.com/mediawiki/apis.ign.com/animal-crossing-new-horizons/e/e5/Paper_Kite_Butterfly_ACNH.png?width=640",
+    price: 1000,
+    location: "Flying",
+    time: "8am - 7pm",
+    nhMonths: "Northern Hemisphere: All Months",
+    shMonths: "Southern Hemisphere: All Months",
+    caught: false
+)
+
+rajahBrookesBirdwing = Bug.create(
+    name: "Rajah Brooke's Birdwing",
+    image: "https://oyster.ignimgs.com/mediawiki/apis.ign.com/animal-crossing-new-horizons/1/10/Raja_Brooke_ACNH.png?width=640",
+    price: 2500,
+    location: "Flying above Flowers",
+    time: "8am - 5pm",
+    nhMonths: "Northern Hemisphere: December January, February, April, May, June, July, August, September",
+    shMonths: "Southern Hemisphere: June, July, August, October, November, December, January, February, March",
+    caught: false
+)
+
+longLocust = Bug.create(
+    name: "Long Locust",
+    image: "https://oyster.ignimgs.com/mediawiki/apis.ign.com/animal-crossing-new-horizons/4/4a/Long_Locust_ACNH.png?width=640",
+    price: 200,
+    location: "On the Ground",
+    time: "8am - 7pm",
+    nhMonths: "Northern Hemisphere: April, May, June, July, August, September, October, November",
+    shMonths: "Southern Hemisphere:October, November, December, January, February, March, April, May",
+    caught: false
+)
+
+bellCricket = Bug.create(
+    name: "Bell Cricket",
+    image: "https://oyster.ignimgs.com/mediawiki/apis.ign.com/animal-crossing-new-horizons/f/fa/Bell_Cricket_ACNH.png?width=640",
+    price: 430,
+    location: "On the Ground",
+    time: "	5pm - 8am",
+    nhMonths: "Northern Hemisphere: September, October",
+    shMonths: "Southern Hemisphere: March, April",
+    caught: false
+)
+
+brownCicada = Bug.create(
+    name: "Brown Cicada",
+    image: "https://oyster.ignimgs.com/mediawiki/apis.ign.com/animal-crossing-new-horizons/7/7f/Brown_Cicada_ACNH.png?width=640",
+    price: 250,
+    location: "	On Trees",
+    time: "8am - 5pm",
+    nhMonths: "Northern Hemisphere: July, August",
+    shMonths: "Southern Hemisphere: January, February",
+    caught: false
+)
+
+cicadaShell = Bug.create(
+    name: "Cicada Shell",
+    image: "https://oyster.ignimgs.com/mediawiki/apis.ign.com/animal-crossing-new-horizons/e/ea/Cicada_Shell_ACNH.png?width=640",
+    price: 10,
+    location: "On Trees",
+    time: "All Day",
+    nhMonths: "Northern Hemisphere:July, August",
+    shMonths: "Southern Hemisphere: January, February",
+    caught: false
+)
+
+firefly = Bug.create(
+    name: "Firefly",
+    image: "https://oyster.ignimgs.com/mediawiki/apis.ign.com/animal-crossing-new-horizons/d/d7/Firefly.png?width=640",
+    price: 300,
+    location: "Flying",
+    time: "7pm - 4pm",
+    nhMonths: "Northern Hemisphere: June",
+    shMonths: "Southern Hemisphere: December",
+    caught: false
+)
+
+stinkbug = Bug.create(
+    name: "Stinkbug",
+    image: "https://oyster.ignimgs.com/mediawiki/apis.ign.com/animal-crossing-new-horizons/1/1a/Stink_Bug_ACNH.png?width=640",
+    price: 120,
+    location: "On Flowers",
+    time: "All Day",
+    nhMonths: "Northern Hemisphere: March, April, May, June, July, August, September, October",
+    shMonths: "Southern Hemisphere: September, October, November, December, January, February, March, April",
+    caught: false
+)
+
+violinBeetle = Bug.create(
+    name: "Violin Beetle",
+    image: "https://oyster.ignimgs.com/mediawiki/apis.ign.com/animal-crossing-new-horizons/6/62/Violin_Beetle_ACNH.png?width=640",
+    price: 450,
+    location: "On Trees",
+    time: "All Day",
+    nhMonths: "Northern Hemisphere: May, June, September, October, November",
+    shMonths: "Southern Hemisphere: March, April, May, November, December",
+    caught: false
+)
+
+earthBoringDungBeetle = Bug.create(
+    name: "Earth-boring Dung Beetle",
+    image: "https://oyster.ignimgs.com/mediawiki/apis.ign.com/animal-crossing-new-horizons/2/26/Earth_Boring_Dung_Beetle.png?width=640",
+    price: 300,
+    location: "On Ground",
+    time: "All Day",
+    nhMonths: "Northern Hemisphere: July, August, September",
+    shMonths: "Southern Hemisphere: January, February, March",
+    caught: false
+)
+
+miyamaStag = Bug.create(
+    name: "Miyama Stag",
+    image: "https://oyster.ignimgs.com/mediawiki/apis.ign.com/animal-crossing-new-horizons/8/83/Miyama_Stag_ACNH.png?width=640",
+    price: 15000,
+    location: "On Trees",
+    time: "All Day",
+    nhMonths: "Northern Hemisphere: July, August",
+    shMonths: "Southern Hemisphere: January, February",
+    caught: false
+)
+
+giraffeStag = Bug.create(
+    name: "Giraffe Stag",
+    image: "https://oyster.ignimgs.com/mediawiki/apis.ign.com/animal-crossing-new-horizons/c/c5/Giraffe_Stag_ACNH.png?width=640",
+    price: 12000,
+    location: "On Trees (Coconut)",
+    time: "5pm - 8am",
+    nhMonths: "Northern Hemisphere: July, August",
+    shMonths: "Southern Hemisphere: January, February",
+    caught: false
+)
+
+walkingStick = Bug.create(
+    name: "Walking Stick",
+    image: "https://oyster.ignimgs.com/mediawiki/apis.ign.com/animal-crossing-new-horizons/f/f4/Walkingstick_ACNH.png?width=640",
+    price: 600,
+    location: "On Trees",
+    time: "4am - 8am & 5pm - 7pm",
+    nhMonths: "Northern Hemisphere: July, August, September, October, November",
+    shMonths: "Southern Hemisphere: January, February, March, April, May",
+    caught: false
+)
+
+wharfRoach = Bug.create(
+    name: "Wharf Roach",
+    image: "https://oyster.ignimgs.com/mediawiki/apis.ign.com/animal-crossing-new-horizons/7/76/Wharf_Roach_ACNH.png?width=640",
+    price: 200,
+    location: "On Beach (Rocks)",
+    time: "All Day",
+    nhMonths: "Northern Hemisphere: All Months",
+    shMonths: "Southern Hemisphere: All Months",
+    caught: false
+)
+
+pillBug = Bug.create(
+    name: "Pill Bug",
+    image: "https://oyster.ignimgs.com/mediawiki/apis.ign.com/animal-crossing-new-horizons/3/34/Pill_Bug_ACNH.png?width=640",
+    price: 250,
+    location: "Hitting Rocks",
+    time: "11pm - 4pm",
+    nhMonths: "Northern Hemisphere: September, October, November, December, January, February, March, April, May, June",
+    shMonths: "Southern Hemisphere: March, April, May, June, July, August, September, October, November, December",
+    caught: false
+)
+
+yellowButterfly = Bug.create(
+    name: "Yellow Butterfly",
+    image: "https://oyster.ignimgs.com/mediawiki/apis.ign.com/animal-crossing-new-horizons/0/0b/Yellow_Butterfly_ACNH.png?width=640",
+    price: 160,
+    location: "Flying",
+    time: "4am - 7pm",
+    nhMonths: "Northern Hemisphere: March, April, May, June, September, October",
+    shMonths: "Southern Hemisphere: March, April, September, October, November, December",
+    caught: false
+)
+
+greatPurpleEmperor = Bug.create(
+    name: "Great Purple Emperor",
+    image: "https://oyster.ignimgs.com/mediawiki/apis.ign.com/animal-crossing-new-horizons/e/e7/Great_Purple_Emperor_ACNH.png?width=640",
+    price: 3000,
+    location: "Flying",
+    time: "4am - 7pm",
+    nhMonths: "Northern Hemisphere: May, June, July, August",
+    shMonths: "Southern Hemisphere: November, December, January, February",
+    caught: false
+)
+
+queenAlexandrasBirdwing = Bug.create(
+    name: "Queen Alexandra's Birdwing",
+    image: "https://oyster.ignimgs.com/mediawiki/apis.ign.com/animal-crossing-new-horizons/8/83/Birdwing_ACNH.png?width=640",
+    price: 4000,
+    location: "Flying",
+    time: "8am - 4pm",
+    nhMonths: "Northern Hemisphere: May, June, July, August, September",
+    shMonths: "Southern Hemisphere: November, December, January, February, March, April",
+    caught: false
+)
+
+migratoryLocust = Bug.create(
+    name: "Migratory Locust",
+    image: "https://oyster.ignimgs.com/mediawiki/apis.ign.com/animal-crossing-new-horizons/7/70/Migratory_Locust_ACNH.png?width=640",
+    price: 600,
+    location: "On the Ground",
+    time: "8am - 7pm",
+    nhMonths: "Northern Hemisphere: August, September, October, November",
+    shMonths: "Southern Hemisphere: February, March, April, May",
+    caught: false
+)
+
+mantis = Bug.create(
+    name: "Mantis",
+    image: "https://oyster.ignimgs.com/mediawiki/apis.ign.com/animal-crossing-new-horizons/6/66/Mantis_ACNH.png?width=640",
+    price: 430,
+    location: "On Flowers",
+    time: "8am - 5pm",
+    nhMonths: "Northern Hemisphere: March, April, May, June, July, August, September, October, November",
+    shMonths: "Southern Hemisphere: September, October, November, December, January, March, April",
+    caught: false
+)
+
+robustCicada = Bug.create(
+    name: "Robust Cicada",
+    image: "https://oyster.ignimgs.com/mediawiki/apis.ign.com/animal-crossing-new-horizons/3/31/Robust_Cicada_ACNH.png?width=640",
+    price: 300,
+    location: "On Trees",
+    time: "8am - 5pm",
+    nhMonths: "Northern Hemisphere: July, August",
+    shMonths: "Southern Hemisphere: January, February",
+    caught: false
+)
+
+redDragonfly = Bug.create(
+    name: "Red Dragonfly",
+    image: "https://oyster.ignimgs.com/mediawiki/apis.ign.com/animal-crossing-new-horizons/5/50/Red_Dragonfly_ACNH.png?width=640",
+    price: 180,
+    location: "Flying",
+    time: "8am - 7pm",
+    nhMonths: "Northern Hemisphere: September, October",
+    shMonths: "Southern Hemisphere: March, April",
+    caught: false
+)
+
+moleCricket = Bug.create(
+    name: "Mole Cricket",
+    image: "https://oyster.ignimgs.com/mediawiki/apis.ign.com/animal-crossing-new-horizons/0/0a/Mole_Cricket_ACNH.png?width=640",
+    price: 500,
+    location: "Underground",
+    time: "All Day",
+    nhMonths: "Northern Hemisphere: November, December, January, February, March, April, May",
+    shMonths: "Southern Hemisphere: May, June, July, August, September, October, November",
+    caught: false
+)
+
+manFacedStinkBug = Bug.create(
+    name: "Man-faced Stink Bug",
+    image: "https://oyster.ignimgs.com/mediawiki/apis.ign.com/animal-crossing-new-horizons/d/db/Man_faced_Stink_Bug_ACNH.png?width=640",
+    price: 1000,
+    location: "On Flowers",
+    time: "7pm - 8am",
+    nhMonths: "Northern Hemisphere: March, April, May, June, July, August, September, October",
+    shMonths: "Southern Hemisphere: September, October, November, December, January, February, March, April",
+    caught: false
+)
+
+citrusLongHornedBeetle = Bug.create(
+    name: "Citrus Long-horned Beetle",
+    image: "https://oyster.ignimgs.com/mediawiki/apis.ign.com/animal-crossing-new-horizons/0/0f/Citrus_Long_Horned_Beetle.png?width=640",
+    price: 350,
+    location: "On Tree Stumps",
+    time: "All Day",
+    nhMonths: "Northern Hemisphere: All Months",
+    shMonths: "Southern Hemisphere: All Months",
+    caught: false
+)
+
+scarabBeetle = Bug.create(
+    name: "Scarab Beetle",
+    image: "https://oyster.ignimgs.com/mediawiki/apis.ign.com/animal-crossing-new-horizons/5/50/Scarab_Beetle.png?width=640",
+    price: 10000,
+    location: "On Trees",
+    time: "11pm - 8am",
+    nhMonths: "Northern Hemisphere: July, August",
+    shMonths: "Southern Hemisphere:January, February",
+    caught: false
+)
+
+giantStag = Bug.create(
+    name: "Giant Stag",
+    image: "https://oyster.ignimgs.com/mediawiki/apis.ign.com/animal-crossing-new-horizons/a/a9/Giant_Stag_ACNH.png?width=640",
+    price: 10000,
+    location: "On Trees",
+    time: "	11pm - 8am",
+    nhMonths: "Northern Hemisphere: July, August",
+    shMonths: "Southern Hemisphere: January, February",
+    caught: false
+)
+
+hornedDynastid = Bug.create(
+    name: "Horned Dynastid",
+    image: "https://oyster.ignimgs.com/mediawiki/apis.ign.com/animal-crossing-new-horizons/6/67/Horned_Dynastid_ACNH.png?width=640",
+    price: 1350,
+    location: "On Trees",
+    time: "5pm - 8am",
+    nhMonths: "Northern Hemisphere: July, August",
+    shMonths: "Southern Hemisphere: January, February",
+    caught: false
+)
+
+walkingLeaf = Bug.create(
+    name: "Walking Leaf",
+    image: "https://oyster.ignimgs.com/mediawiki/apis.ign.com/animal-crossing-new-horizons/0/06/Walking_Leaf_ACNH.png?width=640",
+    price: 600,
+    location: "On Ground (Beneath Trees)",
+    time: "All Day",
+    nhMonths: "Northern Hemisphere: July, August, September",
+    shMonths: "Southern Hemisphere: January, February, March",
+    caught: false
+)
+
+fly = Bug.create(
+    name: "Fly",
+    image: "https://oyster.ignimgs.com/mediawiki/apis.ign.com/animal-crossing-new-horizons/e/e4/Fly_ACNH.png?width=640",
+    price: 60,
+    location: "On Rotten Food and Garbage",
+    time: "All Day",
+    nhMonths: "Northern Hemisphere: All Months",
+    shMonths: "Southern Hemisphere: All Months",
+    caught: false
+)
+
+CEntipede = Bug.create(
+    name: "Centipede",
+    image: "https://oyster.ignimgs.com/mediawiki/apis.ign.com/animal-crossing-new-horizons/a/ac/Centipede_ACNH.png?width=640",
+    price: 300,
+    location: "Hitting Rocks",
+    time: "5pm - 11pm",
+    nhMonths: "Northern Hemisphere: September, October, November, December, January, February, March, April, May, June",
+    shMonths: "Southern Hemisphere: March, April, May, June, July, August, September, November, December",
+    caught: false
+)
+
+tigerButterfly = Bug.create(
+    name: "Tiger Butterfly",
+    image: "https://oyster.ignimgs.com/mediawiki/apis.ign.com/animal-crossing-new-horizons/2/29/Tiger_Butterfly_ACNH.png?width=640",
+    price: 240,
+    location: "Flying",
+    time: "4am - 7pm",
+    nhMonths: "Northern Hemisphere: March, April, May, June, July, August, September",
+    shMonths: "Southern Hemisphere: September, October, November, December, January, February, March",
+    caught: false
+)
+
+monarchButterfly = Bug.create(
+    name: "Monarch Butterfly",
+    image: "https://oyster.ignimgs.com/mediawiki/apis.ign.com/animal-crossing-new-horizons/7/77/Monarch_Butterfly_ACNH.png?width=640",
+    price: 140,
+    location: "Flying",
+    time: "4am - 5pm",
+    nhMonths: "Northern Hemisphere: September, October, November",
+    shMonths: "Southern Hemisphere: March, April, May",
+    caught: false
+)
+
+moth = Bug.create(
+    name: "Moth",
+    image: "https://oyster.ignimgs.com/mediawiki/apis.ign.com/animal-crossing-new-horizons/6/69/Moth_ACNH.png?width=640",
+    price: 130,
+    location: "Flying Around Light",
+    time: "	7pm - 4am",
+    nhMonths: "Northern Hemisphere: All Months",
+    shMonths: "Southern Hemisphere: All Months",
+    caught: false
+)
+
+riceGrasshopper = Bug.create(
+    name: "Rice Grasshopper",
+    image: "https://oyster.ignimgs.com/mediawiki/apis.ign.com/animal-crossing-new-horizons/a/aa/Rice_Grasshopper_ACNH.png?width=640",
+    price: 160,
+    location: "On the Ground",
+    time: "8am - 7pm",
+    nhMonths: "Northern Hemisphere: August, September, October, November",
+    shMonths: "Southern Hemisphere: February, March, April, May",
+    caught: false
+)
+
+orchidMantis = Bug.create(
+    name: "Orchid Mantis",
+    image: "https://oyster.ignimgs.com/mediawiki/apis.ign.com/animal-crossing-new-horizons/a/a2/Orchid_Mantis_ACNH.png?width=640",
+    price: 2400,
+    location: "On Flowers (White)",
+    time: "8am - 5pm",
+    nhMonths: "Northern Hemisphere: March, April, May, June, July, August, September, October, November",
+    shMonths: "Southern Hemisphere: September, October, November, December, January, February, March, April, May",
+    caught: false
+)
+
+giantCicada = Bug.create(
+    name: "Giant Cicada",
+    image: "https://oyster.ignimgs.com/mediawiki/apis.ign.com/animal-crossing-new-horizons/6/67/Giant_Cicada_ACNH.png?width=640",
+    price: 500,
+    location: "On Trees",
+    time: "8am - 5pm",
+    nhMonths: "Northern Hemisphere: July, August",
+    shMonths: "Southern Hemisphere: January, February",
+    caught: false
+)
+
+darnerDragonfly = Bug.create(
+    name: "Darner Dragonfly",
+    image: "https://oyster.ignimgs.com/mediawiki/apis.ign.com/animal-crossing-new-horizons/a/ae/Darner_Dragonfly_ACNH.png?width=640",
+    price: 230,
+    location: "Flying",
+    time: "8am - 5pm",
+    nhMonths: "Northern Hemisphere: April, May, June, July, August, September, October",
+    shMonths: "Southern Hemisphere: October, November, December, January, February, March, April",
+    caught: false
+)
+
+Pondskater= Bug.create(
+    name: "Pondskater",
+    image: "https://oyster.ignimgs.com/mediawiki/apis.ign.com/animal-crossing-new-horizons/1/19/Pondskater_ACNH.png?width=640",
+    price: 130,
+    location: "On Ponds and Rivers",
+    time: "	8am - 7pm",
+    nhMonths: "Northern Hemisphere: May, June, July, August, September",
+    shMonths: "Southern Hemisphere: November, December, January, February, March",
+    caught: false
+)
+
+ladybug = Bug.create(
+    name: "Ladybug",
+    image: "https://oyster.ignimgs.com/mediawiki/apis.ign.com/animal-crossing-new-horizons/f/f4/Ladybug_ACNH.png?width=640",
+    price: 200,
+    location: "On Flowers",
+    time: "8am - 5pm",
+    nhMonths: "Northern Hemisphere: March, April, May, June, October",
+    shMonths: "Southern Hemisphere: April & September, October, November, December",
+    caught: false
+)
+
+rosaliaBatesiBeetle = Bug.create(
+    name: "Rosalia Batesi Beetle",
+    image: "https://oyster.ignimgs.com/mediawiki/apis.ign.com/animal-crossing-new-horizons/5/54/Rosalia_Batesi_Beetle_ACNH.png?width=640",
+    price: 3000,
+    location: "On Tree Stumps",
+    time: "All Day",
+    nhMonths: "Northern Hemisphere: May, June, July, August, September",
+    shMonths: "Southern Hemisphere: November, December, January, February, March",
+    caught: false
+)
+
+droneBeetle = Bug.create(
+    name: "Drone Beetle",
+    image: "https://oyster.ignimgs.com/mediawiki/apis.ign.com/animal-crossing-new-horizons/2/28/Drone_Beetle_ACNH.png?width=640",
+    price: 200,
+    location: "On Trees",
+    time: "All Day",
+    nhMonths: "Northern Hemisphere: June, July, August",
+    shMonths: "Southern Hemisphere: December, January, February",
+    caught: false
+)
+
+rainbowStag = Bug.create(
+    name: "Rainbow Stag",
+    image: "https://oyster.ignimgs.com/mediawiki/apis.ign.com/animal-crossing-new-horizons/8/88/Rainbow_Stag_ACNH.png?width=640",
+    price: 6000,
+    location: "On Trees",
+    time: "7pm - 8am",
+    nhMonths: "Northern Hemisphere: June, July, August, September",
+    shMonths: "Southern Hemisphere: December, January, February, March",
+    caught: false
+)
+
+hornedAtlas = Bug.create(
+    name: "Horned Atlas",
+    image: "https://oyster.ignimgs.com/mediawiki/apis.ign.com/animal-crossing-new-horizons/d/d9/Horned_Atlas_ACNH.png?width=640",
+    price: 8000,
+    location: "On Trees (Coconut)",
+    time: "5pm - 8am",
+    nhMonths: "Northern Hemisphere: July, August",
+    shMonths: "Southern Hemisphere: January, February",
+    caught: false
+)
+
+bagworm = Bug.create(
+    name: "Bagworm",
+    image: "https://oyster.ignimgs.com/mediawiki/apis.ign.com/animal-crossing-new-horizons/3/38/Bagworm_ACNH.png?width=640",
+    price: 600,
+    location: "Shaking trees",
+    time: "All Day",
+    nhMonths: "Northern Hemisphere: All Months",
+    shMonths: "Southern Hemisphere: All Months",
+    caught: false
+)
+
+mosquito = Bug.create(
+    name: "Mosquito",
+    image: "https://oyster.ignimgs.com/mediawiki/apis.ign.com/animal-crossing-new-horizons/4/41/Mosquito_ACNH.png?width=640",
+    price: 130,
+    location: "Flying",
+    time: "5pm - 4am",
+    nhMonths: "Northern Hemisphere: June, July, August, September",
+    shMonths: "Southern Hemisphere: December, January, February, March",
+    caught: false
+)
+
+spider = Bug.create(
+    name: "Spider",
+    image: "https://oyster.ignimgs.com/mediawiki/apis.ign.com/animal-crossing-new-horizons/8/84/Spider.png?width=640",
+    price: 480,
+    location: "Shaking Trees",
+    time: "7pm - 8am",
+    nhMonths: "Northern Hemisphere: All Months",
+    shMonths: "Southern Hemisphere: All Months",
+    caught: false
+)
+
+peacockButterfly = Bug.create(
+    name: "Peacock Butterfly",
+    image: "https://oyster.ignimgs.com/mediawiki/apis.ign.com/animal-crossing-new-horizons/2/2e/Peacock_Butterfly_ACNH.png?width=640",
+    price: 2500,
+    location: "Above Purple, Black and Blue Flowers",
+    time: "4am - 7pm",
+    nhMonths: "Northern Hemisphere: March, April, May, June",
+    shMonths: "Southern Hemisphere: September, October, November, December",
+    caught: false
+)
+
+emperorButterfly= Bug.create(
+    name: "Emperor Butterfly",
+    image: "https://oyster.ignimgs.com/mediawiki/apis.ign.com/animal-crossing-new-horizons/7/73/Emperor_Butterfly_ACNH.png?width=640",
+    price: 4000,
+    location: "Flying",
+    time: "5pm - 8am",
+    nhMonths: "Northern Hemisphere: December, January, February, March, June, July, August, September",
+    shMonths: "Southern Hemisphere: January, February, March, June, July, August, September, December",
+    caught: false
+)
+atlasMoth = Bug.create(
+    name: "Atlas Moth",
+    image: "https://oyster.ignimgs.com/mediawiki/apis.ign.com/animal-crossing-new-horizons/5/56/Atlas_Moth.png?width=640",
+    price: 3000,
+    location: "On Trees",
+    time: "7pm - 4am",
+    nhMonths: "Northern Hemisphere: April, May, June, July, August, September",
+    shMonths: "Southern Hemisphere: October, November, December, January, February, March",
+    caught: false
+)
+
+grasshopper = Bug.create(
+    name: "Grasshopper",
+    image: "https://oyster.ignimgs.com/mediawiki/apis.ign.com/animal-crossing-new-horizons/e/e7/Grasshopper_ACNH.png?width=640",
+    price: 160,
+    location: "On the Ground",
+    time: "8am - 5pm",
+    nhMonths: "Northern Hemisphere: July, August, September",
+    shMonths: "Southern Hemisphere: January, February, March",
+    caught: false
+)
+
+honeybee = Bug.create(
+    name: "Honeybee",
+    image: "https://oyster.ignimgs.com/mediawiki/apis.ign.com/animal-crossing-new-horizons/3/36/Honeybee_ACNH.png?width=640",
+    price: 200,
+    location: "Above Flowers",
+    time: "8am - 5pm",
+    nhMonths: "Northern Hemisphere: March, April, May, June, July",
+    shMonths: "Southern Hemisphere: September, October, November, December, January",
+    caught: false
+)
+
+walkerCicada = Bug.create(
+    name: "Walker Cicada",
+    image: "https://oyster.ignimgs.com/mediawiki/apis.ign.com/animal-crossing-new-horizons/6/63/Walker_Cicada_ACNH.png?width=640",
+    price: 400,
+    location: "On Trees",
+    time: "8am - 4pm",
+    nhMonths: "Northern Hemisphere: August, September",
+    shMonths: "Southern Hemisphere: February, March",
+    caught: false
+)
+
+bandedDragonfly = Bug.create(
+    name: "Banded Dragonfly",
+    image: "https://oyster.ignimgs.com/mediawiki/apis.ign.com/animal-crossing-new-horizons/8/88/Banded_Dragonfly_ACNH.png?width=640",
+    price: 4500,
+    location: "Flying",
+    time: "8am - 5pm",
+    nhMonths: "Northern Hemisphere: May, June, July, August, September, October",
+    shMonths: "Southern Hemisphere: November, December, January, February, March, April",
+    caught: false
+)
+
+divingBeetle = Bug.create(
+    name: "Diving Beetle",
+    image: "https://oyster.ignimgs.com/mediawiki/apis.ign.com/animal-crossing-new-horizons/f/f2/Diving_Beetle_ACNH.png?width=640",
+    price: 800,
+    location: "On Ponds and Rivers",
+    time: "8am - 7pm",
+    nhMonths: "Northern Hemisphere: May, June, July, August, September",
+    shMonths: "Southern Hemisphere: November, December, January, February, March",
+    caught: false
+)
+
+tigerBeetle = Bug.create(
+    name: "Tiger Beetle",
+    image: "https://oyster.ignimgs.com/mediawiki/apis.ign.com/animal-crossing-new-horizons/b/b9/Tiger_Beetle.png?width=640",
+    price: 1500,
+    location: "On Ground",
+    time: "All Day",
+    nhMonths: "Northern Hemisphere: February, March, April, May, June, July, August, September, October",
+    shMonths: "Southern Hemisphere: September, October, November, December, January, February, March",
+    caught: false
+)
+
+blueWeevilBeetle = Bug.create(
+    name: "Blue Weevil Beetle",
+    image: "https://oyster.ignimgs.com/mediawiki/apis.ign.com/animal-crossing-new-horizons/e/e9/Blue_Weevil_Beetle_ACNH.png?width=640",
+    price: 800,
+    location: "On Trees (Coconut)",
+    time: "All Day",
+    nhMonths: "Northern Hemisphere: July, August",
+    shMonths: "Southern Hemisphere:January, February",
+    caught: false
+)
+
+goliathBeetle = Bug.create(
+    name: "Goliath Beetle",
+    image: "https://oyster.ignimgs.com/mediawiki/apis.ign.com/animal-crossing-new-horizons/c/c4/Goliath_Beetle_ACNH.png?width=640",
+    price: 8000,
+    location: "On Trees (Coconut)",
+    time: "5pm - 8am",
+    nhMonths: "Northern Hemisphere: June, July, August, September",
+    shMonths: "Southern Hemisphere:December, January, February, March, April",
+    caught: false
+)
+
+cyclommatusStag = Bug.create(
+    name: "Cyclommatus Stag",
+    image: "https://oyster.ignimgs.com/mediawiki/apis.ign.com/animal-crossing-new-horizons/2/2a/Cyclommatus_ACNH.png?width=640",
+    price: 8000,
+    location: "On Trees (Coconut)",
+    time: "5pm - 8am",
+    nhMonths: "Northern Hemisphere: July, August",
+    shMonths: "Southern Hemisphere: January, February",
+    caught: false
+)
+
+hornedElephant = Bug.create(
+    name: "Horned Elephant",
+    image: "https://oyster.ignimgs.com/mediawiki/apis.ign.com/animal-crossing-new-horizons/0/0b/Horned_Elephant_ACNH.png?width=640",
+    price: 8000,
+    location: "On Trees (Coconut)",
+    time: "5pm - 8am",
+    nhMonths: "Northern Hemisphere: July, August",
+    shMonths: "Southern Hemisphere: January, February",
+    caught: false
+)
+
+ant = Bug.create(
+    name: "Ant",
+    image: "https://oyster.ignimgs.com/mediawiki/apis.ign.com/animal-crossing-new-horizons/4/4f/Ant_ACNH.png?width=640",
+    price: 80,
+    location: "On Rotten Turnips and Fruit",
+    time: "All Day",
+    nhMonths: "Northern Hemisphere: All Months",
+    shMonths: "Southern Hemisphere: All Months",
+    caught: false
+)
+
+flea = Bug.create(
+    name: "Flea",
+    image: "https://oyster.ignimgs.com/mediawiki/apis.ign.com/animal-crossing-new-horizons/3/35/Flea_ACNH.png?width=640",
+    price: 70,
+    location: "On Flea-Infested Villagers",
+    time: "All Day",
+    nhMonths: "Northern Hemisphere: April, May, June, July, August, September, October, November",
+    shMonths: "Southern Hemisphere: October, November, December, January, February, March, April, May",
+    caught: false
+)
+
+tarantula = Bug.create(
+    name: "Tarantula",
+    image: "https://oyster.ignimgs.com/mediawiki/apis.ign.com/animal-crossing-new-horizons/f/f4/Tarantula.png?width=640",
+    price: 8000,
+    location: "On Ground",
+    time: "7pm - 4am",
+    nhMonths: "Northern Hemisphere: November, December, January, February, March, April",
+    shMonths: "Southern Hemisphere: May, June, July, August, September, October",
+    caught: false
+)
+
+commonBluebottle = Bug.create(
+    name: "Common Bluebottle",
+    image: "https://oyster.ignimgs.com/mediawiki/apis.ign.com/animal-crossing-new-horizons/1/10/Common_Bluebottle_ACNH.png?width=640",
+    price: 300,
+    location: "Flying",
+    time: "4am - 7pm",
+    nhMonths: "Northern Hemisphere: April, May, June, July, August",
+    shMonths: "Southern Hemisphere: October , November, December, January, February",
+    caught: false
+)
+
+agriasButterfly = Bug.create(
+    name: "Agrias Butterfly",
+    image: "https://oyster.ignimgs.com/mediawiki/apis.ign.com/animal-crossing-new-horizons/2/22/Agrias_Butterfly_ACNH.png?width=640",
+    price: 3000,
+    location: "Location",
+    time: "8am - 5pm",
+    nhMonths: "Northern Hemisphere: April, May, June, July, August, September",
+    shMonths: "Southern Hemisphere: October, November, December, January, February, March",
+    caught: false
+)
+
+madagascanSunsetMoth = Bug.create(
+    name: "Madagascan Sunset Moth",
+    image: "https://oyster.ignimgs.com/mediawiki/apis.ign.com/animal-crossing-new-horizons/e/e3/Madagascan_Sunset_Moth_ACNH.png?width=640",
+    price: 2500,
+    location: "Flying",
+    time: "8am - 4pm",
+    nhMonths: "Northern Hemisphere: April, May, June, July, August, September",
+    shMonths: "Southern Hemisphere: October, November, December, January, February, March",
+    caught: false
+)
+
+cricket = Bug.create(
+    name: "Cricket",
+    image: "https://oyster.ignimgs.com/mediawiki/apis.ign.com/animal-crossing-new-horizons/0/0f/Cricket_ACNH.png?width=640",
+    price: 130,
+    location: "On the Ground",
+    time: "5pm - 8am",
+    nhMonths: "Northern Hemisphere: September, October, November",
+    shMonths: "Southern Hemisphere: March, April, May",
+    caught: false
+)
+
+wasp = Bug.create(
+    name: "Wasp",
+    image: "https://oyster.ignimgs.com/mediawiki/apis.ign.com/animal-crossing-new-horizons/6/68/Wasp_ACNH.png?width=640",
+    price: 2500,
+    location: "Shaking Trees",
+    time: "All Day",
+    nhMonths: "Northern Hemisphere: All Months",
+    shMonths: "Southern Hemisphere: All Months",
+    caught: false
+)
+
+eveningCicada = Bug.create(
+    name: "Evening Cicada",
+    image: "https://oyster.ignimgs.com/mediawiki/apis.ign.com/animal-crossing-new-horizons/f/fd/Evening_Cicada_ACNH.png?width=640",
+    price: 550,
+    location: "On Trees",
+    time: "4am - 8am & 4pm - 7pm",
+    nhMonths: "Northern Hemisphere: July, August",
+    shMonths: "Southern Hemisphere: January, February",
+    caught: false
+)
+
+damselfly = Bug.create(
+    name: "Damselfly",
+    image: "https://oyster.ignimgs.com/mediawiki/apis.ign.com/animal-crossing-new-horizons/b/b6/Damselfly_ACNH.png?width=640",
+    price: 500,
+    location: "Flying",
+    time: "All Day",
+    nhMonths: "Northern Hemisphere: November, December, January, February",
+    shMonths: "Southern Hemisphere: May, June, July, August",
+    caught: false
+)
+
+giantWaterBug = Bug.create(
+    name: "Giant Water Bug",
+    image: "https://oyster.ignimgs.com/mediawiki/apis.ign.com/animal-crossing-new-horizons/2/26/Giant_Water_Bug_ACNH.png?width=640",
+    price: 2000,
+    location: "On Ponds and Rivers",
+    time: "7pm - 8am",
+    nhMonths: "Northern Hemisphere: April, May, June, July, August, September",
+    shMonths: "Southern Hemisphere: January, February, March, October, November, December",
+    caught: false
+)
+
+jewelBeetle = Bug.create(
+    name: "Jewel Beetle",
+    image: "https://oyster.ignimgs.com/mediawiki/apis.ign.com/animal-crossing-new-horizons/4/40/Jewel_Beetle.png?width=640",
+    price: 2400,
+    location: "On Tree Stumps",
+    time: "All Day",
+    nhMonths: "Northern Hemisphere: April, May, June, July, August",
+    shMonths: "Southern Hemisphere: October, November, December, January, February",
+    caught: false
+)
+
+dungBeetle = Bug.create(
+    name: "Dung Beetle",
+    image: "https://oyster.ignimgs.com/mediawiki/apis.ign.com/animal-crossing-new-horizons/b/b4/Dung_Beetle.png?width=640",
+    price: 3000,
+    location: "On the Ground (Rolling Snowballs)",
+    time: "All Day",
+    nhMonths: "Northern Hemisphere: December, January, February",
+    shMonths: "Southern Hemisphere:June, July, August",
+    caught: false
+)
+
+sawStag = Bug.create(
+    name: "Saw Stag",
+    image: "https://oyster.ignimgs.com/mediawiki/apis.ign.com/animal-crossing-new-horizons/3/39/Saw_Stag_ACNH.png?width=640",
+    price: 2000,
+    location: "On Trees",
+    time: "All Day",
+    nhMonths: "Northern Hemisphere: July, August",
+    shMonths: "Southern Hemisphere: January, February",
+    caught: false
+)
+
+goldenStag = Bug.create(
+    name: "Golden Stag",
+    image: "https://oyster.ignimgs.com/mediawiki/apis.ign.com/animal-crossing-new-horizons/a/a3/Golden_Stag_ACNH.png?width=640",
+    price: 12000,
+    location: "On Trees (Coconut)",
+    time: "5pm - 8am",
+    nhMonths: "Northern Hemisphere: July, August",
+    shMonths: "Southern Hemisphere: January, February",
+    caught: false
+)
+
+hornedHercules = Bug.create(
+    name: "Horned Hercules",
+    image: "https://oyster.ignimgs.com/mediawiki/apis.ign.com/animal-crossing-new-horizons/d/dd/Horned_Hercules_ACNH.png?width=640",
+    price: 12000,
+    location: "On Trees (Coconut)",
+    time: "5pm - 8am",
+    nhMonths: "Northern Hemisphere: July, August",
+    shMonths: "Southern Hemisphere: January, February",
+    caught: false
+)
+
+hermitCrab = Bug.create(
+    name: "Hermit Crab",
+    image: "https://oyster.ignimgs.com/mediawiki/apis.ign.com/animal-crossing-new-horizons/d/d3/Hermit_Crab_ACNH.png?width=640",
+    price: 1000,
+    location: "On Beach",
+    time: "7pm - 8am",
+    nhMonths: "Northern Hemisphere: All Months",
+    shMonths: "Southern Hemisphere: All Months",
+    caught: false
+)
+
+snail = Bug.create(
+    name: "Common Bluebottle",
+    image: "https://oyster.ignimgs.com/mediawiki/apis.ign.com/animal-crossing-new-horizons/1/19/Snail_ACNH.png?width=640",
+    price: 250,
+    location: "On Rocks (Rain)",
+    time: "All Day",
+    nhMonths: "Northern Hemisphere: All Months",
+    shMonths: "Southern Hemisphere: All Months",
+    caught: false
+)
+
+scorpion = Bug.create(
+    name: "Scorpion",
+    image: "https://oyster.ignimgs.com/mediawiki/apis.ign.com/animal-crossing-new-horizons/a/ab/Scorpion.png?width=640",
+    price: 8000,
+    location: "On Ground",
+    time: "7pm - 4am",
+    nhMonths: "Northern Hemisphere: May, June, July, August, September, October",
+    shMonths: "Southern Hemisphere: November, December, January, February, March, April",
     caught: false
 )
